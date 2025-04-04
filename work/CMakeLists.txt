@@ -10,8 +10,8 @@ add_executable(myexe
   control/src/hello.cpp
 )
 
-# main/includeとcontrol/includeをインクルードディレクトリとして設定
+# main/incとcontrol/incをインクルードディレクトリとして設定
 target_include_directories(myexe
-  PRIVATE main/include
-  PRIVATE control/include
+  PRIVATE main/inc
+  PRIVATE control/inc
 )
