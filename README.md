@@ -13,7 +13,7 @@ cmake version 3.28.3
 CMake suite maintained and supported by Kitware (kitware.com/cmake).
 ```
 
-# At Coder 練習問題用
+# At Coder 練習問題
 ## A01
 ```
 問題文
