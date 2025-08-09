@@ -3,28 +3,12 @@
 
 # 環境
 OS：Ubuntu24.04(WSL2)
-
-# CMakeの勉強
-* Ubuntu24.04(WSL2)にインストールされていたCMakeをそのまま使用
+## WSL環境構築手順
 ```
-cmake --version
-cmake version 3.28.3
-
-CMake suite maintained and supported by Kitware (kitware.com/cmake).
+> wsl --install
 ```
-
-## フォルダ構成
 ```
-.
-├── CMakeLists.txt
-├── README.md
-├── control
-│   ├── include
-│   │   └── hello.h
-│   └── src
-│       └── hello.cpp
-└── main
-    ├── include
-    └── src
-        └── main.cpp
+$ sudo apt update && sudo apt upgrade -y
+$ sudo apt install build-essential -y
+$ sudo apt install cmake -y
 ```
